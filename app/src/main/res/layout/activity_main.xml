@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="root.cloudwalk.cn.root1300.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shell静默安装"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原生 静默"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shell reboot"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原生 reboot"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="177dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/set_shell_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shell 修改音量"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <Button
+            android:id="@+id/set_old_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原生 修改音量"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="177dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改音量："
+            />
+
+        <EditText
+            android:id="@+id/et_time"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reset_shell_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shell 恢复出厂设置"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <Button
+            android:id="@+id/reset_old_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原生 恢复出厂设置"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="177dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reset_shell_software"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shell 重置软件数据"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <Button
+            android:id="@+id/reset_old_software"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原生 重置软件数据"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="177dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/set_shell_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shell 修改系统时间"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <Button
+            android:id="@+id/set_old_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原生 修改系统时间"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="177dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/set_shell_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shell 修改以太网ip"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <Button
+            android:id="@+id/set_old_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原生 修改以太网ip"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="177dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>
